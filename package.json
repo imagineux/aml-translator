@@ -1,0 +1,12 @@
+{
+  "name": "aml-translator",
+  "version": "0.1.0",
+  "description": "AML: Alien Markup Language Decoder",
+  "scripts": {
+    "test": "node aml_tester.js './aml_translator.js'"
+  },
+  "author": "Matthew van Dusen",
+  "devDependencies": {
+    "mock-browser": "^0.91.34"
+  }
+}
