@@ -1,5 +1,15 @@
 # AML: Alien Markup Language
 
+install dependencies with:
+``` bash
+npm install
+```
+
+Validate functionality with:
+``` bash
+npm test
+```
+
 Introduction
 
 In the year 2018, radiation from a solar flare mutates the Hubble Space Telescope allowing us to receive data being transmitted on the extra-terrestrial Internet. After observing transmissions for some time, we have established that our cosmic neighbors use a markup language that is notably different from HTML. In particular, it is not strictly hierarchical, an element may extend past the closing of the element in which it was opened. We want to build a javascript component that will translate AML into HTML.
