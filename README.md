@@ -91,22 +91,22 @@ How We Evaluate Solutions
 
 When we evaluate your solution, we will be asking ourselves the question, "Is this the kind of code we want in the RigUp code base?" Specifically, this means we will be evaluating:
 
-- ●● **Correctness**
+- **Correctness**
 
 Does this code produce correct results? Correctness is one aspect of customer-facing quality, and we believe that code that consistently produces the expected results without throwing errors or exceptions is an important part of delivering a product that will delight the customer.
 
-- ●● **Testability**
+- **Testability**
 
 How easy would it be to write unit tests for this code? We believe testing is integral to both rapid development and to delivering a high quality product to the customer.
 
-- ●● **Readability**
+- **Readability**
 
 Is this code easy to understand? Code that is clear is easier to change and easier to test, and it just more pleasant to work on.
 
-- ●● **Extensibility**
+- **Extensibility**
 
 How hard will it be to add features to this code? There are some types of future features that are easy to anticipate. In the case of AML, one could anticipate in the future needing to add additional elements that follow the same rules as elements we have already seen, for example adding an element that creates the text effect of underline. But we have no idea in what way future elements might violate the assumptions presented here, so extensibility for the unknown future also means writing something simple, correct, testable, readable.
 
 Hints
 
-- ●●We're not trying to trick you on the AML parsing. If you've thought up some difficult-to-parse edge case, make your best judgement about how to handle it and put a comment about it in your code.
+-We're not trying to trick you on the AML parsing. If you've thought up some difficult-to-parse edge case, make your best judgement about how to handle it and put a comment about it in your code.
