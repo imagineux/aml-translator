@@ -15,7 +15,11 @@ var testStrings = [
    ["Greetings ^%from ^~Glornix^!% Beta-Nine^!~.",
     "Greetings <STRONG>from <EM>Glornix</EM></STRONG><EM> Beta-Nine</EM>.",],
     ['^~Hello, ^%Earth!^!~ We are pleased ^~to^!% meet you.^!~',
-     '<EM>Hello, <STRONG>Earth!</STRONG></EM><STRONG> We are pleased <EM>to</EM></STRONG><EM> meet you.</EM>']
+     '<EM>Hello, <STRONG>Earth!</STRONG></EM><STRONG> We are pleased <EM>to</EM></STRONG><EM> meet you.</EM>'],
+     ['^~Hello, ^%Earth!^!~ We are pleased ^~to^!% meet you.^!~^~Hello, ^%Earth!^!~ We are pleased ^~to^!% meet you.^!~',
+      '<EM>Hello, <STRONG>Earth!</STRONG></EM><STRONG> We are pleased <EM>to</EM></STRONG><EM> meet you.</EM><EM>Hello, <STRONG>Earth!</STRONG></EM><STRONG> We are pleased <EM>to</EM></STRONG><EM> meet you.</EM>'],
+      ['^~Hello, ^%Earth!^!~ We are pleased ^~to^!% meet you.^!~^~Hello, ^%Earth!^!~ We are pleased ^~to^!% meet you.^!~^~Hello, ^%Earth!^!~ We are pleased ^~to^!% meet you.^!~^~Hello, ^%Earth!^!~ We are pleased ^~to^!% meet you.^!~^~Hello, ^%Earth!^!~ We are pleased ^~to^!% meet you.^!~^~Hello, ^%Earth!^!~ We are pleased ^~to^!% meet you.^!~Hello, ^%World!^!%Hello, ^%World!^!%Hello, ^%World!^!%',
+       '<EM>Hello, <STRONG>Earth!</STRONG></EM><STRONG> We are pleased <EM>to</EM></STRONG><EM> meet you.</EM><EM>Hello, <STRONG>Earth!</STRONG></EM><STRONG> We are pleased <EM>to</EM></STRONG><EM> meet you.</EM><EM>Hello, <STRONG>Earth!</STRONG></EM><STRONG> We are pleased <EM>to</EM></STRONG><EM> meet you.</EM><EM>Hello, <STRONG>Earth!</STRONG></EM><STRONG> We are pleased <EM>to</EM></STRONG><EM> meet you.</EM><EM>Hello, <STRONG>Earth!</STRONG></EM><STRONG> We are pleased <EM>to</EM></STRONG><EM> meet you.</EM><EM>Hello, <STRONG>Earth!</STRONG></EM><STRONG> We are pleased <EM>to</EM></STRONG><EM> meet you.</EM>Hello, <STRONG>World!</STRONG>Hello, <STRONG>World!</STRONG>Hello, <STRONG>World!</STRONG>']
 ];
 
 
